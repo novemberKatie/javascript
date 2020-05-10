@@ -39,39 +39,39 @@ let unit = prompt("Введите номер единицы измерения, 
 let length = prompt("Введите длину отрезка");
 
 if (unit == 1) {
-	console.log(parseInt(length) / 10 + "м"); 
+    console.log(parseInt(length) / 10 + "м"); 
 } else if (unit == 2) {
-	console.log(parseInt(length) * 1000 + "м"); 
+    console.log(parseInt(length) * 1000 + "м"); 
 } else if (unit == 3) {
     console.log(parseInt(length) + "м"); 
 } else if (unit == 4) {
     console.log(parseInt(length) / 1000 + "м"); 
 } else if (unit == 5) {
-	console.log(parseInt(length) / 100 + "м"); 
+    console.log(parseInt(length) / 100 + "м"); 
 } else {
-	console.log("Вы ввели неверный номер"); 
+    console.log("Вы ввели неверный номер"); 
 }
 
 // Задание 3
 
 let num = prompt("Введите число от -999 до 999");
 
-if (num == 0) {
+if (num === 0) {
     alert("Нулевое число"); 
 } else if (num > 0 && num < 10) {
-	alert("Положительное однозначное число"); 
+    alert("Положительное однозначное число"); 
 } else if (num >= 10 && num < 100) {
-	alert("Положительное двузначное число"); 
+    alert("Положительное двузначное число"); 
 } else if (num >= 100 && num <= 999) {
     alert("Положительное трехзначное число"); 
 } else if (num < 0 && num > -10) {
-	alert("Отрицательное однозначное число"); 
+    alert("Отрицательное однозначное число"); 
 } else if (num < -10 && num > -100) {
     alert("Отрицательное двузначное число"); 
 } else if (num <= -100 && num >= -999) {
-	alert("Отрицательное трехначное число"); 
+    alert("Отрицательное трехзначное число"); 
 } else {
-	alert("Вы ввели неверное число"); 
+    alert("Вы ввели неверное число"); 
 }
 
 
